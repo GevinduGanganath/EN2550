@@ -2,7 +2,7 @@
 \usepackage[a4paper, margin=1in]{geometry}
 \usepackage{graphicx}
 \usepackage{tabularx}
-\usepackage{datetime2}
+\usepackage{amsmath}
 
 \title{Vision assignment 1}
 \author{sumanasekarawkgg.19 }
@@ -23,7 +23,7 @@
     \vspace{8cm}
     190610E - Sumanasekara W.K.G.G. 
    \vspace{3cm}
-   \\This report is submitted as a partial fulfilment of module EN2550
+   \\This report is submitted as a partial fulfillment of module EN2550
    \vspace{0.5cm} \\
    \today
 \end{center}
@@ -36,32 +36,101 @@
 
 In the given intensity transformation, pixel values lie within the range 50 to 150 has been increased while other pixels remain same. 
 Above pixel values of a gray scale image generally represent gray colour, hence we can observe that gray colour pixels have been 
-transformed into near white in the output image. Figure 1 shows the original image, intensity transformation function and output image 
+transformed into near white in the output image. Figure \ref{Question 1} shows the original image, intensity transformation function and output image 
 respectively.
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=\textwidth]{Images/1.jpg}
     \caption{Question 1}
+    \label{Question 1}
 \end{figure}
 
 \section*{Question 2}
 
 \begin{itemize}
-    \item[(a)] In this part the white matter of brain proton density image has been accentuated. Applyed intensity transformation is
-               shown in figure 2. Since both the white matter and gray matter \cite{brain} have closer pixel values it is very important to select
-               the correct cut-off value. Here 175 is selected as cut-off value and range between 150 and 200 has transformed linearly
-               while others are shifted to pure white or black.
+    \item[(a)] In this part the white matter of brain proton density image has been accentuated. Applied intensity transformation is
+               shown in figure \ref{Question 2-a}. Since both the white matter and gray matter \cite{brain} have closer pixel values it is very important 
+               to select the correct cut-off value. Here 175 was selected as cut-off value and range between 150 and 200 has transformed 
+               linearly while others are shifted to pure white or black.
 
                 \begin{figure}[!h]
                     \centering
                     \includegraphics[width=\textwidth]{Images/2a.jpg}
                     \caption{Question 2-a}
+                    \label{Question 2-a}
                 \end{figure} 
     
     \item[(b)]  
+                \begin{figure}[!h]
+                    \centering
+                    \includegraphics[width=\textwidth]{Images/2b.jpg}
+                \caption{Question 2-b}
+    \end{figure} 
 \end{itemize}
 
+\section*{Question 3}
+
+In this exercise a gamma correction ($\gamma = 0.8$) has been performed on the L place of the given image after converting it to the L*a*b 
+colour space \cite{lab}. Results are shown in figure \ref{Question 3 input and output images}.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\textwidth]{Images/31.jpg}
+    \caption{Question 3 input and gamma corrected images}
+    \label{Question 3 input and output images}
+\end{figure}
+
+\noindent In the L*a*b colour space L represents the lightness of the pixel. According to the equation \ref{eq:1} applying a gamma value less than
+1 always produces a new L value which is grater than the previous. Therefore, after the gamma correction output image is lighter than before
+giving a nice appearance to dark places like rock hallows. 
+
+\begin{equation}\label{eq:1}
+    \text{new L value} = 255\left(\frac{\text{current L value}}{255}\right)^{0.8}
+\end{equation}
+
+\noindent This can also be represented using the histograms of the two versions of image. As you can observe in figure \ref{Question 3 histograms},
+after the gamma correction histogram has moved right slightly while storing more pixels in right most bins.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\textwidth]{Images/32.jpg}
+    \caption{Question 3 histograms}
+    \label{Question 3 histograms}
+\end{figure}
+
+\newpage
+\section*{Question 4}
+
+Images may have histograms confined into some region, but a histogram of a good image have the values in all regions. Therefore, we need to 
+distribute the pixel values throughout the region. That is what histogram equalization does  \cite{histo}. \\
+
+\noindent In this exercise a python function was written (figure \ref{Histogram Equalization Function}) to carry out the histogram equalization on a given image. As the first step histogram of the given image was
+obtained using the numpy histogram function and the cumulative summation was calculated. Then the histogram equalization equation can be 
+applied resulting a transformation function. Finally, it can be used as a look-up table to generate the equalized image.
+Resulting histograms are shown in figure \ref{Histograms} and the proper operation of the implemented function can be verified by comparing it 
+with the output of openCV in-built histogram equalization function. Equalized image is shown in figure \ref{41}.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Images/40.PNG}
+    \caption{Histogram Equalization Function}
+    \label{Histogram Equalization Function}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\textwidth]{Images/42.jpg}
+    \caption{Histograms of shell image}
+    \label{Histograms}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=\textwidth]{Images/41.jpg}
+    \caption{Equalized image}
+    \label{41}
+\end{figure}
 
 \bibliographystyle{IEEEtran}
 \bibliography{ref}
