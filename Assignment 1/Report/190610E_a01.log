@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  21 FEB 2022 09:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  24 FEB 2022 11:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -294,19 +294,24 @@ Package pdftex.def Info: Images/41.jpg  used on input line 134.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3 <./Images/32.jpg> <./Images/40.PNG>] (190610E_a01.bbl) [4 <./Images/42.jpg> <./Images/41.jpg>] (190610E_a01.aux) ) 
+<Images/51.jpg, id=28, 650.43pt x 289.08pt>
+File: Images/51.jpg Graphic file (type jpg)
+<use Images/51.jpg>
+Package pdftex.def Info: Images/51.jpg  used on input line 150.
+(pdftex.def)             Requested size: 452.9679pt x 201.32243pt.
+[3 <./Images/32.jpg> <./Images/40.PNG>] [4 <./Images/42.jpg> <./Images/41.jpg> <./Images/51.jpg>] (190610E_a01.bbl) [5] (190610E_a01.aux) ) 
 Here is how much of TeX's memory you used:
- 3283 strings out of 478584
- 54896 string characters out of 2844873
- 349662 words of memory out of 3000000
- 21424 multiletter control sequences out of 15000+600000
+ 3291 strings out of 478584
+ 55015 string characters out of 2844873
+ 349670 words of memory out of 3000000
+ 21431 multiletter control sequences out of 15000+600000
  473277 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,6n,67p,338b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on 190610E_a01.pdf (5 pages, 659423 bytes).
+Output written on 190610E_a01.pdf (6 pages, 717829 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
