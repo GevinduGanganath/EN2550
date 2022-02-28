@@ -142,6 +142,25 @@ with the output of openCV in-built histogram equalization function. Equalized im
 
 \section*{Question 5}
 
+Two functions were implemented to carry out the zooming and calculate the normalized sum of squared difference (SSD). The zooming function is 
+capable of handling the both nearest-neighbor and bilinear interpolation techniques. By observing the SSD values in table 1, we can conclude that 
+bilinear interpolation provides the better results.
+
+\begin{center}
+    Table 1: SSD value comparison
+    \begin{tabular}{ |c|c|c| } 
+        \hline
+        Image & SSD with nearest-neighbor interpolation & bilinear interpolation \\ 
+        \hline
+        Image 1 & 641.788 & 628.113 \\
+        \hline
+        Image 2 & 268.688 & 259.388 \\
+        \hline
+        Image 3 & 426.194 & 404.029 \\
+        \hline
+    \end{tabular}
+\end{center}
+
 \section*{Question 6}
 
 \begin{itemize}
