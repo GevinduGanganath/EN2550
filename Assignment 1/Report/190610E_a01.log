@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  28 FEB 2022 00:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  28 FEB 2022 09:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -382,22 +382,25 @@ File: Images/32.jpg Graphic file (type jpg)
 <use Images/32.jpg>
 Package pdftex.def Info: Images/32.jpg  used on input line 105.
 (pdftex.def)             Requested size: 452.9679pt x 174.21796pt.
- [2 <./Images/2b.jpg> <./Images/31.jpg>] [3 <./Images/32.jpg>]
+ [2 <./Images/2b.jpg> <./Images/31.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
 
-<Images/40.PNG, id=61, 348.1005pt x 138.5175pt>
+<Images/40.PNG, id=56, 348.1005pt x 138.5175pt>
 File: Images/40.PNG Graphic file (type png)
 <use Images/40.PNG>
 Package pdftex.def Info: Images/40.PNG  used on input line 124.
 (pdftex.def)             Requested size: 317.07614pt x 126.17369pt.
-<Images/42.jpg, id=62, 1156.32pt x 289.08pt>
+<Images/42.jpg, id=57, 1156.32pt x 289.08pt>
 File: Images/42.jpg Graphic file (type jpg)
 <use Images/42.jpg>
 Package pdftex.def Info: Images/42.jpg  used on input line 131.
 (pdftex.def)             Requested size: 452.9679pt x 113.23918pt.
-<Images/41.jpg, id=63, 650.43pt x 289.08pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images/41.jpg, id=58, 650.43pt x 289.08pt>
 File: Images/41.jpg Graphic file (type jpg)
 <use Images/41.jpg>
 Package pdftex.def Info: Images/41.jpg  used on input line 138.
@@ -405,25 +408,25 @@ Package pdftex.def Info: Images/41.jpg  used on input line 138.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images/51.jpg, id=65, 650.43pt x 289.08pt>
+[3 <./Images/32.jpg> <./Images/40.PNG>]
+<Images/51.jpg, id=71, 650.43pt x 289.08pt>
 File: Images/51.jpg Graphic file (type jpg)
 <use Images/51.jpg>
 Package pdftex.def Info: Images/51.jpg  used on input line 154.
 (pdftex.def)             Requested size: 452.9679pt x 201.32243pt.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4 <./Images/40.PNG> <./Images/42.jpg>]
-<Images/71.jpg, id=81, 1300.86pt x 433.62pt>
+<Images/71.jpg, id=74, 1300.86pt x 433.62pt>
 File: Images/71.jpg Graphic file (type jpg)
 <use Images/71.jpg>
 Package pdftex.def Info: Images/71.jpg  used on input line 171.
 (pdftex.def)             Requested size: 452.9679pt x 150.98853pt.
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images/72.jpg, id=83, 722.7pt x 433.62pt>
+<Images/72.jpg, id=76, 722.7pt x 433.62pt>
 File: Images/72.jpg Graphic file (type jpg)
 <use Images/72.jpg>
 Package pdftex.def Info: Images/72.jpg  used on input line 181.
@@ -431,7 +434,7 @@ Package pdftex.def Info: Images/72.jpg  used on input line 181.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./Images/41.jpg> <./Images/51.jpg>] (190610E_a01.bbl
+[4 <./Images/42.jpg> <./Images/41.jpg>] (190610E_a01.bbl
 Underfull \hbox (badness 3735) in paragraph at lines 25--28
 []\OT1/cmr/m/n/10.95 S. Team, ``Grey mat-ter vs white mat-ter in the brain,'' June 07, 2020. Ac-
  []
@@ -451,20 +454,20 @@ Underfull \hbox (badness 6808) in paragraph at lines 35--38
 \OT1/cmr/m/n/10.95 on: Feb. 20, 2022. [On-line]. Avail-able: []$https : / / medium . com / @kyawsawhtoon /
  []
 
-) [6 <./Images/71.jpg> <./Images/72.jpg>] (190610E_a01.aux)
+) [5 <./Images/51.jpg> <./Images/71.jpg>] [6 <./Images/72.jpg>] (190610E_a01.aux)
 Package rerunfilecheck Info: File `190610E_a01.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  11110 strings out of 478584
  174040 string characters out of 2844873
- 466771 words of memory out of 3000000
+ 465771 words of memory out of 3000000
  29120 multiletter control sequences out of 15000+600000
  474069 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,6n,63p,338b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 190610E_a01.pdf (7 pages, 956809 bytes).
+Output written on 190610E_a01.pdf (7 pages, 956920 bytes).
 PDF statistics:
  152 PDF objects out of 1000 (max. 8388607)
  31 named destinations out of 1000 (max. 500000)
