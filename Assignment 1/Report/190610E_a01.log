@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  1 MAR 2022 08:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  1 MAR 2022 15:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -352,131 +352,144 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 <Images/1.jpg, id=15, 1445.4pt x 433.62pt>
 File: Images/1.jpg Graphic file (type jpg)
 <use Images/1.jpg>
-Package pdftex.def Info: Images/1.jpg  used on input line 48.
+Package pdftex.def Info: Images/1.jpg  used on input line 49.
 (pdftex.def)             Requested size: 452.9679pt x 135.88966pt.
-<Images/2a.jpg, id=18, 939.51pt x 433.62pt>
+<Images/2a.jpg, id=17, 939.51pt x 433.62pt>
 File: Images/2a.jpg Graphic file (type jpg)
 <use Images/2a.jpg>
-Package pdftex.def Info: Images/2a.jpg  used on input line 63.
+Package pdftex.def Info: Images/2a.jpg  used on input line 64.
 (pdftex.def)             Requested size: 452.9679pt x 209.06154pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71 
+l.72 
       [1
 
  <./Images/1.jpg> <./Images/2a.jpg>]
-<Images/2b.jpg, id=32, 939.51pt x 433.62pt>
+<Images/2b.jpg, id=30, 939.51pt x 433.62pt>
 File: Images/2b.jpg Graphic file (type jpg)
 <use Images/2b.jpg>
-Package pdftex.def Info: Images/2b.jpg  used on input line 74.
+Package pdftex.def Info: Images/2b.jpg  used on input line 75.
 (pdftex.def)             Requested size: 452.9679pt x 209.06154pt.
-<Images/31.jpg, id=35, 939.51pt x 289.08pt>
+<Images/31.jpg, id=32, 939.51pt x 289.08pt>
 File: Images/31.jpg Graphic file (type jpg)
 <use Images/31.jpg>
-Package pdftex.def Info: Images/31.jpg  used on input line 87.
+Package pdftex.def Info: Images/31.jpg  used on input line 88.
 (pdftex.def)             Requested size: 452.9679pt x 139.37436pt.
-<Images/32.jpg, id=38, 939.51pt x 361.35pt>
+<Images/32.jpg, id=35, 939.51pt x 361.35pt>
 File: Images/32.jpg Graphic file (type jpg)
 <use Images/32.jpg>
-Package pdftex.def Info: Images/32.jpg  used on input line 105.
+Package pdftex.def Info: Images/32.jpg  used on input line 106.
 (pdftex.def)             Requested size: 452.9679pt x 174.21796pt.
- [2 <./Images/2b.jpg> <./Images/31.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
- []
-
-<Images/40.PNG, id=56, 348.1005pt x 138.5175pt>
-File: Images/40.PNG Graphic file (type png)
-<use Images/40.PNG>
-Package pdftex.def Info: Images/40.PNG  used on input line 124.
-(pdftex.def)             Requested size: 317.07614pt x 126.17369pt.
-<Images/42.jpg, id=57, 1156.32pt x 289.08pt>
-File: Images/42.jpg Graphic file (type jpg)
-<use Images/42.jpg>
-Package pdftex.def Info: Images/42.jpg  used on input line 131.
-(pdftex.def)             Requested size: 452.9679pt x 113.23918pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images/41.jpg, id=58, 650.43pt x 289.08pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+[2 <./Images/2b.jpg> <./Images/31.jpg>]
+<Images/40.PNG, id=52, 348.1005pt x 138.5175pt>
+File: Images/40.PNG Graphic file (type png)
+<use Images/40.PNG>
+Package pdftex.def Info: Images/40.PNG  used on input line 125.
+(pdftex.def)             Requested size: 317.07614pt x 126.17369pt.
+<Images/42.jpg, id=53, 1156.32pt x 289.08pt>
+File: Images/42.jpg Graphic file (type jpg)
+<use Images/42.jpg>
+Package pdftex.def Info: Images/42.jpg  used on input line 132.
+(pdftex.def)             Requested size: 452.9679pt x 113.23918pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images/41.jpg, id=54, 650.43pt x 289.08pt>
 File: Images/41.jpg Graphic file (type jpg)
 <use Images/41.jpg>
-Package pdftex.def Info: Images/41.jpg  used on input line 138.
+Package pdftex.def Info: Images/41.jpg  used on input line 139.
 (pdftex.def)             Requested size: 452.9679pt x 201.32243pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3 <./Images/32.jpg> <./Images/40.PNG>]
-<Images/51.jpg, id=72, 650.43pt x 289.08pt>
+<Images/51.jpg, id=66, 650.43pt x 289.08pt>
 File: Images/51.jpg Graphic file (type jpg)
 <use Images/51.jpg>
-Package pdftex.def Info: Images/51.jpg  used on input line 173.
+Package pdftex.def Info: Images/51.jpg  used on input line 174.
 (pdftex.def)             Requested size: 452.9679pt x 201.32243pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<Images/6code.PNG, id=69, 620.91975pt x 195.73125pt>
+File: Images/6code.PNG Graphic file (type png)
+<use Images/6code.PNG>
+Package pdftex.def Info: Images/6code.PNG  used on input line 184.
+(pdftex.def)             Requested size: 452.9679pt x 142.79002pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images/52.jpg, id=70, 650.43pt x 289.08pt>
+File: Images/52.jpg Graphic file (type jpg)
+<use Images/52.jpg>
+Package pdftex.def Info: Images/52.jpg  used on input line 191.
+(pdftex.def)             Requested size: 452.9679pt x 201.32243pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images/53.jpg, id=72, 650.43pt x 289.08pt>
+File: Images/53.jpg Graphic file (type jpg)
+<use Images/53.jpg>
+Package pdftex.def Info: Images/53.jpg  used on input line 201.
+(pdftex.def)             Requested size: 452.9679pt x 201.32243pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [4 <./Images/42.jpg> <./Images/41.jpg>]
-<Images/71.jpg, id=83, 1300.86pt x 433.62pt>
+Overfull \vbox (7.15907pt too high) has occurred while \output is active []
+
+ [5 <./Images/51.jpg> <./Images/6code.PNG> <./Images/52.jpg>]
+<Images/71.jpg, id=90, 1300.86pt x 433.62pt>
 File: Images/71.jpg Graphic file (type jpg)
 <use Images/71.jpg>
-Package pdftex.def Info: Images/71.jpg  used on input line 190.
+Package pdftex.def Info: Images/71.jpg  used on input line 217.
 (pdftex.def)             Requested size: 452.9679pt x 150.98853pt.
-<Images/72.jpg, id=85, 722.7pt x 433.62pt>
+<Images/72.jpg, id=92, 722.7pt x 433.62pt>
 File: Images/72.jpg Graphic file (type jpg)
 <use Images/72.jpg>
-Package pdftex.def Info: Images/72.jpg  used on input line 200.
+Package pdftex.def Info: Images/72.jpg  used on input line 227.
 (pdftex.def)             Requested size: 452.9679pt x 271.77934pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images/73.jpg, id=87, 722.7pt x 433.62pt>
+<Images/73.jpg, id=94, 722.7pt x 433.62pt>
 File: Images/73.jpg Graphic file (type jpg)
 <use Images/73.jpg>
-Package pdftex.def Info: Images/73.jpg  used on input line 211.
+Package pdftex.def Info: Images/73.jpg  used on input line 238.
 (pdftex.def)             Requested size: 452.9679pt x 271.77934pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./Images/51.jpg> <./Images/71.jpg>] (190610E_a01.bbl
-Underfull \hbox (badness 3735) in paragraph at lines 25--28
-[]\OT1/cmr/m/n/10.95 S. Team, ``Grey mat-ter vs white mat-ter in the brain,'' June 07, 2020. Ac-
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 25--28
-\OT1/cmr/m/n/10.95 cessed on: Feb. 14, 2022. [On-line]. Avail-able: []$https : / / www . spinalcord . com / blog /
- []
-
-[6 <./Images/72.jpg> <./Images/73.jpg>]
-Underfull \hbox (badness 2809) in paragraph at lines 35--38
-[]\OT1/cmr/m/n/10.95 K. S. Htoon, ``A tu-to-rial to his-togram equal-iza-tion,'' Aug. 19, 2020. Ac-cessed
- []
-
-
-Underfull \hbox (badness 6808) in paragraph at lines 35--38
-\OT1/cmr/m/n/10.95 on: Feb. 20, 2022. [On-line]. Avail-able: []$https : / / medium . com / @kyawsawhtoon /
- []
-
-) [7] (190610E_a01.aux)
+[6 <./Images/53.jpg> <./Images/71.jpg>] [7 <./Images/72.jpg> <./Images/73.jpg>] (190610E_a01.aux)
 Package rerunfilecheck Info: File `190610E_a01.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11120 strings out of 478584
- 174174 string characters out of 2844873
- 466807 words of memory out of 3000000
- 29127 multiletter control sequences out of 15000+600000
+ 11127 strings out of 478584
+ 174237 string characters out of 2844873
+ 468826 words of memory out of 3000000
+ 29136 multiletter control sequences out of 15000+600000
  474069 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,63p,372b,458s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 190610E_a01.pdf (8 pages, 1003774 bytes).
+ 60i,6n,63p,372b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on 190610E_a01.pdf (8 pages, 1092603 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
