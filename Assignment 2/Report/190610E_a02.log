@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  19 APR 2022 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  20 APR 2022 13:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -358,11 +358,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
-<Images/RANSAC code.PNG, id=15, 782.32275pt x 352.31625pt>
+<Images/RANSAC code.PNG, id=15, 774.4935pt x 398.08725pt>
 File: Images/RANSAC code.PNG Graphic file (type png)
 <use Images/RANSAC code.PNG>
 Package pdftex.def Info: Images/RANSAC code.PNG  used on input line 46.
-(pdftex.def)             Requested size: 362.37569pt x 163.191pt.
+(pdftex.def)             Requested size: 362.37569pt x 186.26277pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 60--64
 
@@ -372,7 +372,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--64
 File: Images/1.png Graphic file (type png)
 <use Images/1.png>
 Package pdftex.def Info: Images/1.png  used on input line 70.
-(pdftex.def)             Requested size: 226.48395pt x 226.48279pt.
+(pdftex.def)             Requested size: 362.37569pt x 362.37247pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -380,7 +380,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 \end{document}
+l.80 \end{document}
                     [1
 
  <./Images/RANSAC code.PNG>] [2 <./Images/1.png>] (190610E_a02.aux)
@@ -396,7 +396,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  60i,7n,63p,365b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk>{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 190610E_a02.pdf (3 pages, 290814 bytes).
+Output written on 190610E_a02.pdf (3 pages, 299288 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)

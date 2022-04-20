@@ -60,17 +60,18 @@ Figure \ref{RANSAC code} shows the python code written by me.
 \noindent Data points are shuffled at each iteration and the first three data points were selected to estimate the circle. \textit{least squares circle} 
 function of the \textit{circle fit} python library was used to compute the center and radius. Then the distance between the center and the remaining 
 data points are calculated. By comparing those values with the threshold we can count the number of inliers. The iteration which gives the highest
-number of inliers was determined as the best model. \\
+number of inliers was selected and using those inliers best model can be calculated. \\
 
 \noindent Figure \ref{RANSAC} shows the results. Circle obtained by RANSAC algorithm (red) is giving better 
 results than the inbuilt least square fitting function. 
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[width=0.5\textwidth]{Images/1.png}
+    \includegraphics[width=0.8\textwidth]{Images/1.png}
     \caption{Results of RANSAC}
     \label{RANSAC}
 \end{figure}
+
 
 %\newpage
 %\bibliographystyle{IEEEtran}
