@@ -1,6 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage[a4paper, margin=1in]{geometry}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage{tabularx}
 \usepackage{amsmath}
 \usepackage{hyperref}
@@ -60,18 +61,48 @@ Figure \ref{RANSAC code} shows the python code written by me.
 \noindent Data points are shuffled at each iteration and the first three data points were selected to estimate the circle. \textit{least squares circle} 
 function of the \textit{circle fit} python library was used to compute the center and radius. Then the distance between the center and the remaining 
 data points are calculated. By comparing those values with the threshold we can count the number of inliers. The iteration which gives the highest
-number of inliers was selected and using those inliers best model can be calculated. \\
+number of inliers was selected and using those inliers best model can be calculated. 
 
 \noindent Figure \ref{RANSAC} shows the results. Circle obtained by RANSAC algorithm (red) is giving better 
-results than the inbuilt least square fitting function. 
+results than the inbuilt least square fitting function. \\
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/1.png}
-    \caption{Results of RANSAC}
+    \caption{Question 1 results}
     \label{RANSAC}
 \end{figure}
 
+\noindent \textbf{Question 2}
+
+\noindent In this question the expectation is to superimpose a flag to an architectural image. The procedure for this is to first take four ponts
+on the architectural image to compute the homography which maps the flag to architectural image. Then we can wrap the flag and blend it with architectural
+image. 
+
+\noindent Figure \ref{Q2} shows the results of the superimposing. The left column shows the point selections while the right column shows
+the flag superimposed into the selected locations.
+
+
+\begin{figure}
+    \centering
+    \begin{subfigure}[][10pt][b]{0.8\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/21.png}
+        \subcaption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.8\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/22.png}
+        \subcaption{}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.8\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Images/23.png}
+        \subcaption{}
+    \end{subfigure}
+       \caption{Question 2 results}
+       \label{Q2}
+\end{figure}
 
 %\newpage
 %\bibliographystyle{IEEEtran}
