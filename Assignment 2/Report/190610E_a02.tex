@@ -41,7 +41,8 @@
 \noindent \textbf{Question 1}
 
 \noindent In the first part of the assignment,  a circle is estimated using the RANSAC algorithm. Objective is to write a code for RANSAC manually.
-Figure \ref{RANSAC code} shows the python code written by me. 
+Figure \ref{RANSAC code} shows the python code written for the RANSAC algorithm. 
+
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.8\textwidth]{Images/RANSAC code.PNG}
@@ -80,29 +81,45 @@ on the architectural image to compute the homography which maps the flag to arch
 image. 
 
 \noindent Figure \ref{Q2} shows the results of the superimposing. The left column shows the point selections while the right column shows
-the flag superimposed into the selected locations.
+the flag superimposed into the selected locations. \\
 
-
-\begin{figure}
+\begin{figure}[!h]
     \centering
-    \begin{subfigure}[][10pt][b]{0.8\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Images/21.png}
-        \subcaption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.8\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Images/22.png}
-        \subcaption{}
-    \end{subfigure}
-    \begin{subfigure}[b]{0.8\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Images/23.png}
-        \subcaption{}
-    \end{subfigure}
-       \caption{Question 2 results}
-       \label{Q2}
+    \includegraphics[width=0.8\textwidth]{Images/2.png}
+    \caption{Question 2 results}
+    \label{Q2}
 \end{figure}
+
+\newpage
+\noindent \textbf{Question 3}
+
+\begin{itemize}
+    \item[(a)] In the first part of question 3, it is required to compute and match SIFT features between Graffiti image 1 and 5.
+    We can directly occupy openCV built-in functions for this purpose. First we have to find the keypoints and descriptors of each image. Then we
+    can match these descriptors and filter them based on the distance to obtain the best results. Figure \ref{SIFT feature matching} shows the 
+    results of SIFT feature matching.
+
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{Images/31.png}
+        \caption{SIFT feature matching}
+        \label{SIFT feature matching}
+    \end{figure}
+
+    \item[(b)]
+    \item[(c)] Graffiti image 1 was stitched into the fifth one. Initially, image 1 was wrapped using the given homography. Then we can blend it 
+    with the fifth image. However, while this blending the brightness of the stitched area was increased drastically and gave an unexpected appearance.
+    Therefore, the brightness of the stitching area of image 5 was reduced. Result is shown in figure \ref{Image stitching}. In the stitched image 
+    we can clearly observe a part on a vehicle which has been come from image 1. 
+    
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{Images/33.png}
+        \caption{Image stitching}
+        \label{Image stitching}
+    \end{figure}
+      
+\end{itemize}
 
 %\newpage
 %\bibliographystyle{IEEEtran}

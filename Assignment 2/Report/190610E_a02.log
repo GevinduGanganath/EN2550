@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  21 APR 2022 01:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  21 APR 2022 14:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -384,59 +384,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--40
 <Images/RANSAC code.PNG, id=16, 774.4935pt x 398.08725pt>
 File: Images/RANSAC code.PNG Graphic file (type png)
 <use Images/RANSAC code.PNG>
-Package pdftex.def Info: Images/RANSAC code.PNG  used on input line 47.
+Package pdftex.def Info: Images/RANSAC code.PNG  used on input line 48.
 (pdftex.def)             Requested size: 362.37569pt x 186.26277pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
 <Images/1.png, id=18, 867.24pt x 867.24pt>
 File: Images/1.png Graphic file (type png)
 <use Images/1.png>
-Package pdftex.def Info: Images/1.png  used on input line 71.
+Package pdftex.def Info: Images/1.png  used on input line 72.
 (pdftex.def)             Requested size: 362.37569pt x 362.37247pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images/21.png, id=20, 347.2975pt x 128.48pt>
-File: Images/21.png Graphic file (type png)
-<use Images/21.png>
-Package pdftex.def Info: Images/21.png  used on input line 90.
-(pdftex.def)             Requested size: 362.37569pt x 134.06302pt.
-<Images/22.png, id=21, 344.28625pt x 126.4725pt>
-File: Images/22.png Graphic file (type png)
-<use Images/22.png>
-Package pdftex.def Info: Images/22.png  used on input line 95.
-(pdftex.def)             Requested size: 362.37569pt x 133.11845pt.
-<Images/23.png, id=22, 345.29pt x 127.47626pt>
-File: Images/23.png Graphic file (type png)
-<use Images/23.png>
-Package pdftex.def Info: Images/23.png  used on input line 100.
-(pdftex.def)             Requested size: 362.37569pt x 133.78592pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+<Images/2.png, id=20, 346.29375pt x 376.40625pt>
+File: Images/2.png Graphic file (type png)
+<use Images/2.png>
+Package pdftex.def Info: Images/2.png  used on input line 88.
+(pdftex.def)             Requested size: 362.37569pt x 393.89424pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 \end{document}
-                     [1
+l.93 \newpage
+              [1
 
- <./Images/RANSAC code.PNG>] [2 <./Images/1.png>] [3 <./Images/21.png> <./Images/22.png> <./Images/23.png>] (190610E_a02.aux)
+ <./Images/RANSAC code.PNG>]
+<Images/31.png, id=40, 582.175pt x 301.125pt>
+File: Images/31.png Graphic file (type png)
+<use Images/31.png>
+Package pdftex.def Info: Images/31.png  used on input line 104.
+(pdftex.def)             Requested size: 362.37569pt x 187.43991pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Images/33.png, id=42, 903.375pt x 250.9375pt>
+File: Images/33.png Graphic file (type png)
+<use Images/33.png>
+Package pdftex.def Info: Images/33.png  used on input line 117.
+(pdftex.def)             Requested size: 362.37569pt x 100.66039pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <./Images/1.png>] [3 <./Images/2.png (PNG copy)> <./Images/31.png (PNG copy)>] [4 <./Images/33.png (PNG copy)>] (190610E_a02.aux)
 Package rerunfilecheck Info: File `190610E_a02.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12332 strings out of 478584
- 198859 string characters out of 2844873
- 488335 words of memory out of 3000000
- 30365 multiletter control sequences out of 15000+600000
+ 12330 strings out of 478584
+ 198787 string characters out of 2844873
+ 488433 words of memory out of 3000000
+ 30360 multiletter control sequences out of 15000+600000
  474756 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,8n,77p,380b,496s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 67i,6n,77p,380b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk>{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 190610E_a02.pdf (4 pages, 443495 bytes).
+Output written on 190610E_a02.pdf (5 pages, 1180479 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
