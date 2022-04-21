@@ -615,17 +615,9 @@ INPUT .\190610E_a02.out
 INPUT .\190610E_a02.out
 OUTPUT 190610E_a02.out
 OUTPUT 190610E_a02.pdf
-INPUT .\Images\uom.png
-INPUT .\Images\uom.png
-INPUT Images\uom.png
-INPUT .\Images\uom.png
-INPUT .\Images\uom.png
-INPUT .\Images\uom.png
-INPUT .\Images\uom.png
+INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome\ufontawesometwo.fd
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome\ufontawesometwo.fd
 INPUT C:\Users\User\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome\ufontawesometwo.fd
@@ -659,6 +651,7 @@ INPUT .\Images\1.png
 INPUT .\Images\1.png
 INPUT .\Images\1.png
 INPUT .\Images\1.png
+INPUT C:\Users\User\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\Images\2.png
 INPUT .\Images\2.png
 INPUT Images\2.png
