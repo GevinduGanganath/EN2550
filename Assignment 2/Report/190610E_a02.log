@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  21 APR 2022 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.2.15)  25 APR 2022 11:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -384,14 +384,14 @@ File: Images/RANSAC code.PNG Graphic file (type png)
 Package pdftex.def Info: Images/RANSAC code.PNG  used on input line 33.
 (pdftex.def)             Requested size: 362.37569pt x 186.26277pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
 <Images/1.png, id=8, 867.24pt x 867.24pt>
 File: Images/1.png Graphic file (type png)
 <use Images/1.png>
-Package pdftex.def Info: Images/1.png  used on input line 57.
+Package pdftex.def Info: Images/1.png  used on input line 56.
 (pdftex.def)             Requested size: 271.7835pt x 271.77934pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -399,14 +399,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1
 
 {C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Images/RANSAC code.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
 
 <Images/2.png, id=31, 346.29375pt x 376.40625pt>
 File: Images/2.png Graphic file (type png)
 <use Images/2.png>
-Package pdftex.def Info: Images/2.png  used on input line 74.
+Package pdftex.def Info: Images/2.png  used on input line 73.
 (pdftex.def)             Requested size: 452.9679pt x 492.3721pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -415,7 +415,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Images/31.png, id=39, 582.175pt x 301.125pt>
 File: Images/31.png Graphic file (type png)
 <use Images/31.png>
-Package pdftex.def Info: Images/31.png  used on input line 90.
+Package pdftex.def Info: Images/31.png  used on input line 89.
 (pdftex.def)             Requested size: 452.9679pt x 234.29759pt.
 
 
@@ -425,7 +425,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Images/33.png, id=46, 903.375pt x 250.9375pt>
 File: Images/33.png Graphic file (type png)
 <use Images/33.png>
-Package pdftex.def Info: Images/33.png  used on input line 103.
+Package pdftex.def Info: Images/33.png  used on input line 102.
 (pdftex.def)             Requested size: 452.9679pt x 125.82835pt.
  [4 <./Images/31.png (PNG copy)> <./Images/33.png (PNG copy)>] (190610E_a02.aux)
 Package rerunfilecheck Info: File `190610E_a02.out' has not changed.
@@ -440,7 +440,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  67i,6n,77p,380b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk>{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 190610E_a02.pdf (4 pages, 1092464 bytes).
+Output written on 190610E_a02.pdf (4 pages, 1092798 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
