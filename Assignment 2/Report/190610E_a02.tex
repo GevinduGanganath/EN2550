@@ -21,7 +21,7 @@
 \noindent \textbf{Name}: Sumanasekara W.K.G.G. \\
 \noindent \textbf{Index}: 190610E \\
 \newline
-\noindent \textbf{Note}: All codes relevant to this assignment can be found in \faGithub{ \url{https://github.com/GevinduGanganath/EN2550/tree/main/Assignment%202}} \\
+\noindent \textbf{Note}: All the files relevant to this assignment can be found in \faGithub{ \url{https://github.com/GevinduGanganath/EN2550/tree/main/Assignment%202}} \\
 
 \noindent \textbf{Question 1}
 
@@ -40,13 +40,13 @@ Figure \ref{RANSAC code} shows the python code written for the RANSAC algorithm.
     \item Threshold: Standard deviation of data points divided by 16 (selected by trial and error)
     \item Number of samples (s): 3
     \item Probability (p): 0.95
-    \item Outlier ration (e): 0.5
+    \item Outlier ratio (e): 0.5
     \item Number of iterations $ = \frac{log(1-p)}{log(1-(1-e)^s)} \approx 22 $
 \end{itemize}
 
 \noindent Data points are shuffled at each iteration and the first three data points were selected to estimate the circle. \textit{least squares circle} 
 function of the \textit{circle fit} python library was used to compute the center and radius. Then the distance between the center and the remaining 
-data points are calculated. By comparing those values with the threshold we can count the number of inliers. The iteration which gives the highest
+data points are calculated. By comparing those values with the radius $\mp$ threshold we can count the number of inliers. The iteration which gives the highest
 number of inliers was selected and using those inliers best model can be calculated. 
 
 \noindent Figure \ref{RANSAC} shows the results. Circle obtained by RANSAC algorithm (red) is giving better results than the best samples (green). \\
@@ -66,16 +66,16 @@ on the architectural image to compute the homography which maps the flag to arch
 image. 
 
 \noindent Figure \ref{Q2} shows the results of the superimposing. The left column shows the point selections while the right column shows
-the flag superimposed into the selected locations. \\
+the flag superimposed into the selected locations (Image quality has been reduced slightly due to the resizing in latex) \\
 
-\begin{figure}[!h]
+\begin{figure}
     \centering
     \includegraphics[width=\textwidth]{Images/2.png}
     \caption{Question 2 results}
     \label{Q2}
 \end{figure}
 
-\newpage
+%\newpage
 \noindent \textbf{Question 3}
 
 \begin{itemize}
@@ -84,7 +84,7 @@ the flag superimposed into the selected locations. \\
     can match these descriptors and filter them based on the distance to obtain the best results. Figure \ref{SIFT feature matching} shows the 
     results of SIFT feature matching.
 
-    \begin{figure}[!h]
+    \begin{figure}
         \centering
         \includegraphics[width=\textwidth]{Images/31.png}
         \caption{SIFT feature matching}
@@ -97,7 +97,7 @@ the flag superimposed into the selected locations. \\
     Therefore, the brightness of the stitching area of image 5 was reduced. Result is shown in figure \ref{Image stitching}. In the stitched image 
     we can clearly observe a part on a vehicle which has been come from image 1. 
     
-    \begin{figure}[!h]
+    \begin{figure}
         \centering
         \includegraphics[width=\textwidth]{Images/33.png}
         \caption{Image stitching}
