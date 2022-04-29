@@ -91,11 +91,17 @@ the flag superimposed into the selected locations (Image quality has been reduce
         \label{SIFT feature matching}
     \end{figure}
 
-    \item[(b)]
+    \item[(b)] To calculate the homography using the RANSAC algorithm, first we shuffle the point set and then select four point correspondences. 
+    After that we can compute the homography for those points. Now we can wrap an image with computed homography and compare it with other image 
+    based on the distances. By this method the inliers can be filtered and finally we recompute the homography using all inliers. \cite{RANSACHomography} \\
+    The accuracy of this method it highly depends on the feature matching. Feature matching between first and second image of Graffiti image set
+    has a good accuracy, as a result we can obtain a similar homography to the given. since the feature matching between first and fifth image is
+    not that much accurate, homography is also deviate from the given.
+    
     \item[(c)] Graffiti image 1 was stitched into the fifth one. Initially, image 1 was wrapped using the given homography. Then we can blend it 
     with the fifth image. However, while this blending the brightness of the stitched area was increased drastically and gave an unexpected appearance.
     Therefore, the brightness of the stitching area of image 5 was reduced. Result is shown in figure \ref{Image stitching}. In the stitched image 
-    we can clearly observe a part on a vehicle which has been come from image 1. 
+    we can clearly observe a part on a vehicle which has been come from image 1.
     
     \begin{figure}
         \centering
@@ -106,8 +112,7 @@ the flag superimposed into the selected locations (Image quality has been reduce
       
 \end{itemize}
 
-%\newpage
-%\bibliographystyle{IEEEtran}
-%\bibliography{ref}
+\bibliographystyle{IEEEtran}
+\bibliography{ref}
 
 \end{document}
